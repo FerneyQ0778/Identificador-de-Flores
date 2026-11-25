@@ -38,7 +38,10 @@ class Floristeria:
 
     def contar_flores(self):
         return len(self.flores)
-
+    def mostrar_nombre(self):
+        print("Nombre de la floristeria:", self.nombre)
+        return len(self.nombre)
+   
 
 # OPCION 1: REGISTRAR FLORES
 def registrar_flores(floristeria):
